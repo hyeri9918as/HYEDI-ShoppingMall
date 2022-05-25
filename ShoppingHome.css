@@ -1,0 +1,290 @@
+/* Default CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;   
+    /* y축 정렬을 수직 정렬 = 정중앙 배치*/
+    /* inline 요소에서만 사용 가능한 속성*/
+    /* img 삽입 시 생기는 공백을 제거해주는 속성 */
+}
+
+a {
+    text-decoration: none;   /* 밑줄 제거 */
+    color: #000;
+}
+
+ol, ul {
+    list-style: none;      /* 글머리표 제거 */
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;   /* 웹사이트 중앙 정렬 */
+}
+
+#introbanner bannerlogo img{
+    float: left;
+    width: 960px;        /* 960px */
+    height: 60px;
+    margin: 3px 0 10px 0;
+}
+
+/* header CSS */
+#intro {
+    width: 100%;        /* 960px */
+    height: 100px;
+}
+
+#intro h1 {
+    float: left;
+    width: 30%;        /* 320px */
+    height: 100px;     /* 100px */
+    background-color: #ffffff;
+}
+
+#intro h1 a img {
+    display: block;           /* inline 요소인 a 태그를 block 요소로 변경 */
+    padding: 10px 0 0 0;   /*top, right, bottom, left*/
+    width: 200px;
+    height: 100px;
+    overflow:hidden;
+}
+
+/* 검색 버튼 영역*/
+#intro buttontext {
+    float: left;
+    width: 300px;        
+    height: 100px;
+    background-color: #ffffff;
+    padding: 50px 0 0 0;     /*top, right, bottom, left*/
+    margin-left: 50px;
+
+  }
+  
+#intro buttontext a input {
+    width: 250px;
+    height: 17px;
+    font-size: 14px;
+    border-radius: 30px;
+    border-color: #000;
+    border-width: thin;
+    padding: 5px 10px;
+  }
+
+
+/* 메뉴 버튼 영역*/
+#intro nav {
+    float: right;
+    width: 30%;        /* 320px */
+    height: 100px;
+}
+
+/* 모든 li 태그의 속성값을 지정 */
+#intro nav ul li {
+    width: 20%;      /* li 태그들을 320px 값의 5분의 1크기로 배치 */
+    height: 100px;
+
+    /* display: inline-block;*/
+    font-size: 10px;
+    color: black;
+    background-color: #ffffff;	
+    text-align:center;
+    padding: 60px 0;       /* 상하 50px, 좌우 0 */
+    float: left;
+}
+
+/* 각각의 li 태그의 속성값을 지정 */
+#intro nav ul li a {
+    font-size: 10px;
+    transition: color 0.3s;          /* 마우스를 올렸을 때 색이 변하는 시간 0.3s */
+    height: 320px;
+}
+
+#intro nav ul li a:hover{  
+    color: blue;
+}
+
+
+/* main 메뉴 영역*/
+#main_menu menu {
+    float: left;
+    width: 100%;        /* 960px */
+    height: 50px;
+}
+
+#main_menu menu ul li {
+    width: 178px;       /* li 태그들을 178px로 고정 */
+    height: 50px;
+    margin: 5px 8px 25px 0;
+    font-size:20px;
+    color:#ffffff;
+    text-align: center;
+    float: left;
+    border : dashed black;  /* 테두리 : 점선*/
+}
+
+#main_menu menu ul li a {
+    font-size: 15px;
+    font-weight: bold;
+    transition: color 0.3s;          /* 마우스를 올렸을 때 색이 변하는 시간 0.3s */
+    height: 50px;
+    line-height: 50px;   /* 수직 중앙정렬*/
+    padding: 25px 10px 25px 15px;    /* 상하 20px, 좌우 0 */
+}
+
+#main_menu menu ul li a:hover {
+    color: red;
+}
+
+.empty-line{ /*공백라인, 구분선 배치를 위함 */
+    opacity: 0.0;
+}
+
+/* main 본문 영역*/
+#main article {
+    width: 100%;         /* 960px */
+    height: 320px;
+    float: left;
+    padding : 25px 0;
+}
+
+#main article a {
+    display: block;
+    width: 100%;        /* 960px */
+    height: 100%;       /* 320px */
+}
+
+#main article.one {
+    width: 100%;        /* 960px */
+    height: 100%;       /* 320px */
+    margin: 10px 0; 
+    overflow:hidden;
+
+}
+
+#main article.text {     /* article에서 text class p 태그에 대한 속성 지정 */
+    width: 100%;         /* 960px */
+    height: 30px; 
+}
+
+#main article.text h2{
+    text-align: left;    /* 텍스트 x축 정렬을 중앙으로 */
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+#main article.two {
+    width: 24%;        /* 240px */
+    height: 250px; 
+    margin: 3px 4px 5px 0; 
+    overflow:hidden;
+
+}
+
+#main article.three {
+    width: 24%;        /* 240px */
+    height: 250px; 
+    margin: 3px 4px 5px 4px; 
+    overflow:hidden;
+
+}
+
+#main article.four {
+    width: 24%;        /* 240px */
+    height: 250px; 
+    margin: 3px 4px 5px 4px; 
+    overflow:hidden;
+
+
+}
+
+#main article.five {
+    width: 24%;        /* 240px */
+    height: 250px; 
+    margin: 3px 0 5px 4px; 
+    overflow:hidden;
+
+}
+
+#main article img { 
+    width: 100%;        /* 240px / 높이값은 img 크기대로 자동 조정된다. */
+    height: 100%
+
+}
+
+/* main 텍스트 영역*/
+#main aside.b {
+    float: left;
+    width: 100%;        /* 960px */
+    height: 100px;
+    margin: 10px 0 20px 0 ;
+}
+
+#main aside.b ul li {
+    width: 24.5%;      /* li 태그들을 960px 값의 5분의 1크기로 배치 */
+    text-align: center;
+    font-size: 15px;
+    color:#ffffff;
+    float: left;
+}
+
+#main aside.b ul li a {
+    font-size: 15px;
+    font-weight: bold;
+    transition: color 0.3s;          /* 마우스를 올렸을 때 색이 변하는 시간 0.3s */
+}
+
+#main aside.b ul li a:hover {
+    color: red;
+}
+
+#footerbanner footerlogo img{
+    float: left;
+    width: 960px;        /* 960px */
+    height: 70px;
+    margin: 10px 0 20px 0;
+}
+
+#footer {
+    clear: both;
+    width: 100%;        /* 960px */
+    height: 80px;
+    background-color: #ffffff;
+}
+
+#footer .copyright{
+    float: left;
+    width: 50%;        /* 480px */
+}
+
+#footer .address{
+    float: right;
+    width: 50%;        /* 480px */
+}
+
+#footer .copyright p {
+    font-size: 12px;
+    color: #999;
+    padding: 10px 0 0 0;
+}
+
+#footer .address p{
+    font-size: 12px;
+    color: #999;
+    padding: 10px 0 0 0;
+    text-align: right;
+}
+
+
+#main article img { 
+    transition: all 0.3s; 
+
+}
+
+#main article img:hover { 
+    transform: scale(0.95);
+}
