@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 img {
@@ -16,7 +17,7 @@ a {
     color: #000;
 }
 
-ol, ul {
+ol, ul, li {
     list-style: none;      /* 글머리표 제거 */
 }
 
@@ -35,13 +36,13 @@ ol, ul {
 /* header CSS */
 #intro {
     width: 100%;        /* 960px */
-    height: 100px;
+    height: 110px;
 }
 
 #intro h1 {
     float: left;
     width: 30%;        /* 320px */
-    height: 100px;     /* 100px */
+    height: 110px;     /* 100px */
     background-color: #ffffff;
 }
 
@@ -49,7 +50,8 @@ ol, ul {
     display: block;           /* inline 요소인 a 태그를 block 요소로 변경 */
     padding: 10px 0 0 0;   /*top, right, bottom, left*/
     width: 200px;
-    height: 100px;
+    height: 110px;
+    overflow:hidden;
 }
 
 /* 검색 버튼 영역*/
@@ -65,7 +67,7 @@ ol, ul {
   
 #intro buttontext a input {
     width: 250px;
-    height: 17px;
+    height: 25px;
     font-size: 14px;
     border-radius: 30px;
     border-color: #000;
@@ -89,9 +91,9 @@ ol, ul {
     /* display: inline-block;*/
     font-size: 10px;
     color: black;
-    background-color: #ffffff;   
+    background-color: #ffffff;	
     text-align:center;
-    padding: 60px 0;       /* 상하 60px, 좌우 0 */
+    padding: 60px 0;       /* 상하 50px, 좌우 0 */
     float: left;
 }
 
@@ -115,9 +117,9 @@ ol, ul {
 }
 
 #main_menu menu ul li {
-    width: 178px;      /* li 태그들을 178px로 고정 */
+    width: 178px;       /* li 태그들을 178px로 고정 */
     height: 50px;
-    margin: 5px 8px 25px 0;
+    margin: 40px 8px 40px 0;
     font-size:20px;
     color:#ffffff;
     text-align: center;
@@ -131,13 +133,12 @@ ol, ul {
     transition: color 0.3s;          /* 마우스를 올렸을 때 색이 변하는 시간 0.3s */
     height: 50px;
     line-height: 50px;   /* 수직 중앙정렬*/
-    padding: 25px 10px 25px 15px; 
+    padding: 25px 10px 25px 15px;    /* 상하 20px, 좌우 0 */
 }
 
 #main_menu menu ul li a:hover {
     color: red;
 }
-
 
 /* main 본문 영역*/
 #main article {
@@ -145,81 +146,81 @@ ol, ul {
     height: 320px;
     float: left;
     padding : 25px 0;
-    margin : 25px 80px;
 }
+
 
 #main article a {
     display: block;
-    width: 100%;        /* 960px */
-    height: 100%;       /* 320px */
 }
 
-
-#main article.text {     /* article에서 text class p 태그에 대한 속성 지정 */
-    width: 100%;         /* 960px */
-    height: 30px; 
-    margin-top: 50px;
+#main article.category {
+    display: block;
+    float: left;
+    width: 200px;
+    height: 1200px;
+    margin-top: 40px;
+    padding-right: 20px;
+    overflow: hidden;
 }
 
-#main article.text h1{
-    text-align: left;    /* 텍스트 x축 정렬을 중앙으로 */
-    font-size: 25px;
-    font-weight: bold;
-    padding: 5px 0;
+#main article.category .cat_title {
+    width: 90%;
+    height: 60px;
+    border-bottom: 1px solid #e7e7e7;
+    color: #202429;
+    font-size: 18px;
+    line-height: 60px;
 }
 
-#main article.text h1 a{
-    color: #444c57;
+#main article.category .cat_option a{
+    width: 90%;
+    height: 50px;
+    color: #202429;
+    font-size: 15px;
+    line-height: 60px;
+    transition: color 0.3s;
 }
 
-#main article.one {
-    width: 80px;        /* 240px */
-    height: 80px; 
-    margin: 5px 4px 0px 4px; 
-    padding-left: 150px;
+#main article.category .cat_option a:hover{
+    color: blue;
 }
-
 #main article.two {
-    width: 110px;        /* 240px */
-    height: 110px; 
-    margin: 3px 4px 0px 4px; 
-    padding-left: 80px;
+    width: 24%;        /* 240px */
+    height: 280px; 
+    margin: 60px 10px 5px 0; 
+    overflow:hidden;
+
 }
 
 #main article.three {
-    width: 90px;        /* 240px */
-    height: 90px; 
-    margin: 3px 4px 0px 4px; 
-    padding-left: 80px;
+    width: 24%;        /* 240px */
+    height: 280px; 
+    margin: 60px 10px 5px 4px; 
+    overflow:hidden;
 
 }
 
 #main article.four {
-    width: 90px;        /* 240px */
-    height: 90px; 
-    margin: 3px 0 0px 4px; 
-    padding-left: 100px;
-}
-
-#main article img { 
-    width: 100%;        /* 240px / 높이값은 img 크기대로 자동 조정된다. */
-    height: 100%
+    width: 24%;        /* 240px */
+    height: 280px; 
+    margin: 60px 4px 5px 4px; 
+    overflow:hidden;
 }
 
 /* main 텍스트 영역*/
 #main aside.b {
     float: left;
-    width: 100%;        /* 960px */
-    height: 100px;
-    margin: 10px 120px 20px 90px ;
+    height: 50px;
+    margin: 10px 5px 5px 0 ;
 }
 
 #main aside.b ul li {
-    width: 20%;      /* li 태그들을 960px 값의 5분의 1크기로 배치 */
+    width: 225px;      /* li 태그들을 960px 값의 5분의 1크기로 배치 */
     text-align: center;
     font-size: 15px;
     color:#ffffff;
     float: left;
+    margin-right: 25px;
 }
 
 #main aside.b ul li a {
@@ -229,21 +230,20 @@ ol, ul {
 }
 
 #main aside.b ul li a:hover {
-    color: #586fab;
+    color: red;
 }
 
 #main article.five {
-    width: 300px;        /* 960px */
-    height: 280px;       /* 320px */
-    margin: 10px 0px 40px 0; 
+    float: left;
+    width: 960px;        /* 960px */
+    height: 300px;       /* 320px */
+    margin: 60px 0px 200px 0px; 
 }
 
-#main article.six {
-    float: left;
-    width: 660px;        /* 960px */
-    height: 280px;       /* 320px */
-    margin: 10px 0px 40px 0px; 
-}         
+#main article img { 
+    width: 100%;        
+    height: 100%
+}
 
 #footerbanner footerlogo img{
     float: left;
@@ -282,11 +282,12 @@ ol, ul {
     text-align: right;
 }
 
+
 #main article img { 
     transition: all 0.3s; 
+
 }
 
 #main article img:hover { 
     transform: scale(0.95);
 }
-
