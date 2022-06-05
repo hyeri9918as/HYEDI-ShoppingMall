@@ -91,7 +91,7 @@ ol, ul, li {
     /* display: inline-block;*/
     font-size: 10px;
     color: black;
-    background-color: #ffffff;	
+    background-color: #ffffff;   
     text-align:center;
     padding: 60px 0;       /* 상하 50px, 좌우 0 */
     float: left;
@@ -157,7 +157,7 @@ ol, ul, li {
     display: block;
     float: left;
     width: 200px;
-    height: 1200px;
+    height: 1400px;
     margin-top: 40px;
     padding-right: 20px;
     overflow: hidden;
@@ -223,6 +223,31 @@ ol, ul, li {
     margin-right: 25px;
 }
 
+/* 할인율 스타일 */
+#main aside.b ul li .sales-per {
+    text-align: right;
+    font-size: 20px;
+    color:red;
+}
+
+/* 취소선 스타일 */
+#main aside.b ul li .del-gray {
+    text-align: right;
+    font-size: 15px;
+    color:gray;
+}
+
+#main aside.b ul li .price-hover {
+    font-size: 15px;
+    font-weight: bold;
+    transition: color 0.3s;   
+}
+
+
+#main aside.b ul li .price-hover:hover {
+    color: green;
+}
+
 #main aside.b ul li a {
     font-size: 15px;
     font-weight: bold;
@@ -233,12 +258,6 @@ ol, ul, li {
     color: red;
 }
 
-#main article.five {
-    float: left;
-    width: 960px;        /* 960px */
-    height: 300px;       /* 320px */
-    margin: 60px 0px 200px 0px; 
-}
 
 #main article img { 
     width: 100%;        
