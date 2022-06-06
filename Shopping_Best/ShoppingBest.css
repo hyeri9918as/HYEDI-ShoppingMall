@@ -188,7 +188,7 @@ ol, ul, li {
     width: 24%;        /* 240px */
     height: 280px; 
     margin: 60px 10px 5px 0; 
-    overflow:hidden;
+    overflow: hidden;
 
 }
 
@@ -196,7 +196,7 @@ ol, ul, li {
     width: 24%;        /* 240px */
     height: 280px; 
     margin: 60px 10px 5px 4px; 
-    overflow:hidden;
+    overflow: hidden;
 
 }
 
@@ -204,7 +204,7 @@ ol, ul, li {
     width: 24%;        /* 240px */
     height: 280px; 
     margin: 60px 4px 5px 4px; 
-    overflow:hidden;
+    overflow: hidden;
 }
 
 /* main 텍스트 영역*/
@@ -227,14 +227,14 @@ ol, ul, li {
 #main aside.b ul li .sales-per {
     text-align: right;
     font-size: 20px;
-    color:red;
+    color: red;
 }
 
 /* 취소선 스타일 */
 #main aside.b ul li .del-gray {
     text-align: right;
     font-size: 15px;
-    color:gray;
+    color: gray;
 }
 
 #main aside.b ul li .price-hover {

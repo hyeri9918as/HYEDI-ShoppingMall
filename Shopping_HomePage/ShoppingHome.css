@@ -50,7 +50,7 @@ ol, ul {
     padding: 10px 0 0 0;   /*top, right, bottom, left*/
     width: 200px;
     height: 100px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 /* 검색 버튼 영역*/
@@ -154,11 +154,10 @@ ol, ul {
 }
 
 #main article.one {
-    width: 100%;        /* 960px */
+    width: 98%;        /* 960px */
     height: 100%;       /* 320px */
     margin: 10px 0; 
-    overflow:hidden;
-
+    overflow: hidden;
 }
 
 #main article.text {     /* article에서 text class p 태그에 대한 속성 지정 */
@@ -177,39 +176,33 @@ ol, ul {
     width: 24%;        /* 240px */
     height: 250px; 
     margin: 3px 4px 5px 0; 
-    overflow:hidden;
-
+    overflow: hidden;
 }
 
 #main article.three {
     width: 24%;        /* 240px */
     height: 250px; 
     margin: 3px 4px 5px 4px; 
-    overflow:hidden;
-
+    overflow: hidden;
 }
 
 #main article.four {
     width: 24%;        /* 240px */
     height: 250px; 
     margin: 3px 4px 5px 4px; 
-    overflow:hidden;
-
-
+    overflow: hidden;
 }
 
 #main article.five {
     width: 24%;        /* 240px */
     height: 250px; 
     margin: 3px 0 5px 4px; 
-    overflow:hidden;
-
+    overflow: hidden;
 }
 
 #main article img { 
     width: 100%;        /* 240px / 높이값은 img 크기대로 자동 조정된다. */
     height: 100%
-
 }
 
 /* main 텍스트 영역*/
@@ -275,10 +268,8 @@ ol, ul {
     text-align: right;
 }
 
-
 #main article img { 
     transition: all 0.3s; 
-
 }
 
 #main article img:hover { 

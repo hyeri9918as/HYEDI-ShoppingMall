@@ -51,7 +51,7 @@ ol, ul, li {
     padding: 10px 0 0 0;   /*top, right, bottom, left*/
     width: 200px;
     height: 110px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 /* 검색 버튼 영역*/
@@ -93,7 +93,7 @@ ol, ul, li {
     color: black;
     background-color: #ffffff;	
     text-align:center;
-    padding: 60px 0;       /* 상하 50px, 좌우 0 */
+    padding: 60px 0;  
     float: left;
 }
 
@@ -120,8 +120,8 @@ ol, ul, li {
     width: 178px;       /* li 태그들을 178px로 고정 */
     height: 50px;
     margin: 40px 8px 40px 0;
-    font-size:20px;
-    color:#ffffff;
+    font-size: 20px;
+    color: #ffffff;
     text-align: center;
     float: left;
     border : dashed black;  /* 테두리 : 점선*/
@@ -148,108 +148,38 @@ ol, ul, li {
     padding : 25px 0;
 }
 
-
 #main article a {
     display: block;
 }
 
-#main article.category {
+#main .oneday_QNA {
     display: block;
     float: left;
-    width: 200px;
-    height: 1200px;
-    margin-top: 40px;
-    padding-right: 20px;
+    width: 96%;
+    height: 370px;
+    margin-top:80px;
     overflow: hidden;
 }
 
-#main article.category .cat_title {
-    width: 90%;
-    height: 60px;
-    border-bottom: 1px solid #e7e7e7;
-    color: #202429;
-    font-size: 18px;
-    line-height: 60px;
+#main .oneday_QNA .oneday_border1 {
+    padding: 0 0 15px 10px;
+    border-bottom: #000 solid 2px;
 }
 
-#main article.category .cat_option a{
-    width: 90%;
-    height: 50px;
-    color: #202429;
-    font-size: 15px;
-    line-height: 60px;
-    transition: color 0.3s;
+#main .QNA_Text {
+    width: 100%;
+    margin: 20px 0 30px 0;
 }
 
-#main article.category .cat_option a:hover{
-    color: blue;
-}
-#main article.two {
-    width: 24%;        /* 240px */
-    height: 280px; 
-    margin: 60px 10px 5px 0; 
-    overflow:hidden;
-
+#main .QNA_Text .oneday_border2 {
+    margin: 15px 0 15px 0;
 }
 
-#main article.three {
-    width: 24%;        /* 240px */
-    height: 280px; 
-    margin: 60px 10px 5px 4px; 
-    overflow:hidden;
-
-}
-
-#main article.four {
-    width: 24%;        /* 240px */
-    height: 280px; 
-    margin: 60px 4px 5px 4px; 
-    overflow:hidden;
-}
-
-/* main 텍스트 영역*/
-#main aside.b {
-    float: left;
-    height: 50px;
-    margin: 10px 5px 5px 0 ;
-}
-
-#main aside.b ul li {
-    width: 225px;      /* li 태그들을 960px 값의 5분의 1크기로 배치 */
-    text-align: center;
-    font-size: 15px;
-    color:#ffffff;
-    float: left;
-    margin-right: 25px;
-}
-
-#main aside.b ul li a {
-    font-size: 15px;
-    font-weight: bold;
-    transition: color 0.3s;          /* 마우스를 올렸을 때 색이 변하는 시간 0.3s */
-}
-
-#main aside.b ul li a:hover {
-    color: red;
-}
-
-#main article.five {
-    float: left;
-    width: 960px;        /* 960px */
-    height: 300px;       /* 320px */
-    margin: 60px 0px 200px 0px; 
-}
-
-#main article img { 
-    width: 100%;        
-    height: 100%
-}
-
-#footerbanner footerlogo img{
+#footerbanner footerlogo img {
     float: left;
     width: 960px;        /* 960px */
     height: 70px;
-    margin: 10px 0 20px 0;
+    margin: 50px 0 20px 0;
 }
 
 #footer {
@@ -282,10 +212,8 @@ ol, ul, li {
     text-align: right;
 }
 
-
 #main article img { 
     transition: all 0.3s; 
-
 }
 
 #main article img:hover { 

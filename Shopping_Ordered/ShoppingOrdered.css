@@ -51,7 +51,7 @@ ol, ul, li {
     padding: 10px 0 0 0;   /*top, right, bottom, left*/
     width: 200px;
     height: 110px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 /* 검색 버튼 영역*/
@@ -113,15 +113,15 @@ ol, ul, li {
 #main_menu menu {
     float: left;
     width: 100%;        /* 960px */
-    height: 50px;
+    height: 80px;
 }
 
 #main_menu menu ul li {
     width: 178px;       /* li 태그들을 178px로 고정 */
     height: 50px;
     margin: 40px 8px 40px 0;
-    font-size:20px;
-    color:#ffffff;
+    font-size: 20px;
+    color: #ffffff;
     text-align: center;
     float: left;
     border : dashed black;  /* 테두리 : 점선*/
@@ -131,7 +131,7 @@ ol, ul, li {
     font-size: 15px;
     font-weight: bold;
     transition: color 0.3s;          /* 마우스를 올렸을 때 색이 변하는 시간 0.3s */
-    height: 50px;
+    height: 0px;
     line-height: 50px;   /* 수직 중앙정렬*/
     padding: 25px 10px 25px 15px;    /* 상하 20px, 좌우 0 */
 }
@@ -143,113 +143,181 @@ ol, ul, li {
 /* main 본문 영역*/
 #main article {
     width: 100%;         /* 960px */
-    height: 320px;
+    height: 100px;
     float: left;
-    padding : 25px 0;
 }
-
 
 #main article a {
     display: block;
 }
 
-#main article.category {
-    display: block;
+
+/* 날짜 및 주문상세보기 파트 */
+#main article div .order_detail_part {
+    margin-top: 80px;
+    border-bottom: 3px solid #000;
+}
+
+/* 배송 관련 파트 */
+#main .item div .normal_order {
+    height: 80px;
     float: left;
-    width: 200px;
-    height: 1200px;
-    margin-top: 40px;
-    padding-right: 20px;
+    width: 96%;         /* 945px */
+    margin: 30px 0 50px 0;
+    padding: 30px 0 20px 0;
+    border-bottom: 2px solid #e7e7e7;
+}
+
+/* 주문회사 / 주문금액 / 진행상황 파트 ▼  */
+#main .item .three {
+    width: 96%;
+    border-bottom: 2px solid #e7e7e7;
+    padding: 30px 0 50px 0;
+}
+
+#main .item .three .order_company {
+    float: left;
+}
+
+#main .item .three .right {
+    margin-right: 35px;
+    float: right;
+}
+/* 주문회사 / 주문금액 / 진행상황 파트 ▲  */
+
+/* 상품이미지 / 상품설명 / 상품가격 / 진행상황 ▼  */
+#main .item .four {
+    width: 96%;
+    height: 200px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e7e7e7;
+    padding: 20px 0 50px 10px;
+}
+
+/* 상품 이미지 */
+#main .item .four .img {
+    float: left;
+    width: 125px;
+    height: 125px;
     overflow: hidden;
 }
 
-#main article.category .cat_title {
-    width: 90%;
-    height: 60px;
-    border-bottom: 1px solid #e7e7e7;
-    color: #202429;
-    font-size: 18px;
-    line-height: 60px;
+/* 상품설명 */
+#main .item .four span {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
 }
 
-#main article.category .cat_option a{
-    width: 90%;
-    height: 50px;
-    color: #202429;
-    font-size: 15px;
-    line-height: 60px;
-    transition: color 0.3s;
+#main .item .four span .num {
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 15px;
+    color: #999;
 }
 
-#main article.category .cat_option a:hover{
-    color: blue;
+/* 상품가격 / 진행상황 */
+#main .item .four .right {
+    margin: -35px 35px 0 0;
+    float: right;
+    overflow: hidden;
 }
-#main article.two {
-    width: 24%;        /* 240px */
-    height: 280px; 
-    margin: 60px 10px 5px 0; 
-    overflow:hidden;
+/* 상품이미지 / 상품설명 / 상품가격 / 진행상황 ▲  */
 
-}
-
-#main article.three {
-    width: 24%;        /* 240px */
-    height: 280px; 
-    margin: 60px 10px 5px 4px; 
-    overflow:hidden;
-
+/* 두번째 상품이미지 / 상품설명 / 상품가격 / 진행상황 ▼  */
+#main .item .five {
+    width: 96%;
+    height: 200px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e7e7e7;
+    padding: 140px 0 180px 10px;
 }
 
-#main article.four {
-    width: 24%;        /* 240px */
-    height: 280px; 
-    margin: 60px 4px 5px 4px; 
-    overflow:hidden;
-}
-
-/* main 텍스트 영역*/
-#main aside.b {
+/* 상품 이미지 */
+#main .item .five .img {
     float: left;
-    height: 50px;
-    margin: 10px 5px 5px 0 ;
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
 }
 
-#main aside.b ul li {
-    width: 225px;      /* li 태그들을 960px 값의 5분의 1크기로 배치 */
-    text-align: center;
-    font-size: 15px;
-    color:#ffffff;
+/* 상품설명 */
+#main .item .five span {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+#main .item .five span .num {
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 15px;
+    color: #999;
+}
+
+/* 상품가격 / 진행상황 */
+#main .item .five .right {
+    margin: -35px 35px 0 0;
+    float: right;
+    overflow: hidden;
+}
+/* 두번쨰 상품이미지 / 상품설명 / 상품가격 / 진행상황 ▲  */
+
+
+#main .order_detail_part {
     float: left;
-    margin-right: 25px;
+    width: 96%;
+    height: 40px;
 }
 
-#main aside.b ul li a {
-    font-size: 15px;
+#main .order_detail_part h3 {
+    float: left;
+    width: 100%;
+    height: 50px;
     font-weight: bold;
-    transition: color 0.3s;          /* 마우스를 올렸을 때 색이 변하는 시간 0.3s */
+    font-size: 26px;
+    padding-bottom: 16px;
+    line-height: 60px;
+    overflow: hidden;
 }
 
-#main aside.b ul li a:hover {
-    color: red;
+#main .order_detail_part h3 a {
+    font-size: 24px;
 }
 
-#main article.five {
+.btn_showdetailorder {
+    float: right;
+    color: #000;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+#main .item .order_detail .normal_order {
     float: left;
-    width: 960px;        /* 960px */
-    height: 300px;       /* 320px */
-    margin: 60px 0px 200px 0px; 
+    width: 96%;
+    height: 100px;
+    margin-right: 3px;
+    border-bottom: 1px solid #999;
 }
 
-#main article img { 
-    width: 100%;        
-    height: 100%
+#main .item .order_detail .normal_order h3 {
+    float: left;
+    width: 100%;
+    height: 100px;
+    font-weight: bold;
+    font-size: 23px;
+    padding-bottom: 16px;
+    line-height: 60px;
+    overflow: hidden;
 }
 
-#footerbanner footerlogo img{
+
+
+#footerbanner footerlogo img {
     float: left;
     width: 960px;        /* 960px */
     height: 70px;
-    margin: 10px 0 20px 0;
+    margin: 300px 0 20px 0;
 }
 
 #footer {
@@ -282,10 +350,8 @@ ol, ul, li {
     text-align: right;
 }
 
-
 #main article img { 
     transition: all 0.3s; 
-
 }
 
 #main article img:hover { 
