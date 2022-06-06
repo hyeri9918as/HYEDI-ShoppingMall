@@ -5,6 +5,16 @@
     <title>로그인 페이지 </title>
 
     <link rel="stylesheet" href="../Shopping_Login/ShoppingLogin.css">
+
+    <script>
+        function handleInputOnkeyup()  {
+            document.getElementById('submit').click();
+        };
+
+        function handleButtonOnclick()  {
+            alert('로그인 되었습니다!');
+        };
+    </script>
 </head>
 <body>
     <div class="container">
@@ -78,7 +88,7 @@
                         <ul class="container">
                             <li class="itemcenter"></li>
                             <li class="item">
-                                <button class="submit">로그인하기</button>
+                                <button class="submit" onclick="handleButtonOnclick()">로그인하기</button>
                             </li>
                             <li class="item">
 
