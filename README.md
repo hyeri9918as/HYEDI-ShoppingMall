@@ -20,38 +20,77 @@
 
 ## 쇼핑몰 구현 모습 
 > 1.  메인 페이지입니다. HOME 버튼 및 logo 버튼을 클릭하면 해당 페이지를 이동할 수 있습니다. <br>
-> <img src="README_IMG/HOME1.png" width="400" height="200"></img><br>
-> <img src="README_IMG/HOME2.png" width="400" height="200"></img><br>
-
+> <br>
+> <p align="center">
+> <img src="./README_IMG/HOME1.png" alt="HOME" width="60%" height="50%"/>
+> <img src="./README_IMG/HOME2.png" alt="HOME" width="60%" height="50%"/>
+> </p>
+> <br>
 
 > 2.  당일 배송 페이지입니다. 당일에 배송이 가능한 제품들을 추천해주는 페이지로 구현하였습니다.  <br>
-> <img src="README_IMG/ONEDAY1.png" width="400" height="200"> <br>
-> <img src="README_IMG/ONEDAY2.png" width="400" height="200"> <br>
+> <br>
+> <p align="center">
+> <img src="./README_IMG/ONEDAY1.png" alt="HOME" width="60%" height="50%"/>
+> <img src="./README_IMG/ONEDAY2.png" alt="HOME" width="60%" height="50%"/>
+> </p>
+> <br>
 
 > 3.  베스트 페이지입니다. 베스트 상품들을 추천해주는 페이지로 구현하였습니다. <br>
-> <img src="README_IMG/BEST1.png" width="400" height="200"> <br>
-> <img src="README_IMG/BEST2.png" width="400" height="200"> <br>
+> <br>
+> <p align="center">
+> <img src="./README_IMG/BEST1.png" alt="HOME" width="60%" height="50%"/>
+> <img src="./README_IMG/BEST2.png" alt="HOME" width="60%" height="50%"/>
+> </p>
+> <br>
 
 > 4.  신상 페이지입니다. 신상 상품들을 추천해주는 페이지로 구현하였습니다. <br>
-> <img src="README_IMG/NEW1.png" width="400" height="200"> <br>
-> <img src="README_IMG/NEW2.png" width="400" height="200"> <br>
+> <br>
+> <p align="center">
+> <img src="./README_IMG/NEW1.png" alt="HOME" width="60%" height="50%"/>
+> <img src="./README_IMG/NEW2.png" alt="HOME" width="60%" height="50%"/>
+> </p>
+> <br>
 
 > 5.  혜택존 페이지입니다. 광고 상품들과 할인 상품들을 이미지 로고 형태로 추천해주는 페이지로 구현하였습니다. <br>
-> <img src="README_IMG/SALES1.png" width="400" height="200"> <br>
-> <img src="README_IMG/SALES2.png" width="400" height="200"> <br>
+> <br>
+> <p align="center">
+> <img src="./README_IMG/SALES1.png" alt="HOME" width="60%" height="50%"/>
+> <img src="./README_IMG/SALES2.png" alt="HOME" width="60%" height="50%"/>
+> </p>
+> <br>
 
 > 6.  로그인 페이지입니다. 자바스크립 기능을 함께 구현하였습니다. (로그인 창이 뜨겠금 구현하였으나 input에 값을 입력하지 않아도 로그인 창이 뜨는 오류가 발생합니다. 이부분은 추후에 수정하도록 하겠습니다.) <br>
-> <img src="README_IMG/LOGIN.png" width="400" height="200"> <br>
+> <br>
+> <p align="center">
+> <img src="./README_IMG/LOGIN.png" alt="HOME" width="60%" height="50%"/>
+> </p>
+> <br>
 
 > 7.  회원가입 페이지입니다. <br>
-> <img src="README_IMG/JOIN.png" width="400" height="200"> <br>
+> <br>
+> <p align="center">
+> <img src="./README_IMG/JOIN.png" alt="HOME" width="60%" height="50%"/>
+> </p>
+> <br>
 
 > 8.  마이 페이지입니다. 로그인 아이콘과 배송상태, 고객센터 아이콘을 클릭하면 해당 페이지들로 이동이 가능하게 구현하였습니다. <br>
-> <img src="README_IMG/MYPAGE.png" width="400" height="200"> <br>
+> <br>
+> <p align="center">
+> <img src="./README_IMG/MYPAGE.png" alt="HOME" width="60%" height="50%"/>
+> </p>
+> <br>
 
 > 9.  주문배송 페이지입니다. 주문한 내역들을 확인할 수 있는 페이지입니다. <br>
-> <img src="README_IMG/ORDERED.png" width="400" height="200"> <br>
+> <br>
+> <p align="center">
+> <img src="./README_IMG/ORDERED.png" alt="HOME" width="60%" height="50%"/>
+> </p>
+> <br>
 
 > 10.  Q&A 페이지입니다. 당일 배송 및 주문, 결제, 배송에 자주 하는 질문들로 페이지들을 구성하였습니다. <br> 
-> <img src="README_IMG/QNA1.png" width="400" height="200"> <br>
-> <img src="README_IMG/QNA2.png" width="400" height="200"> <br>
+> <br>
+> <p align="center">
+> <img src="./README_IMG/QNA1.png" alt="HOME" width="60%" height="50%"/>
+> <img src="./README_IMG/QNA2.png" alt="HOME" width="60%" height="50%"/>
+> </p>
+> <br>
